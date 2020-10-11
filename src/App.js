@@ -5,7 +5,7 @@ import Banner from './Banner';
 import Row from './Row';
 import requests from './requests';
 
-function App() {
+const App = () => {
   return (
     <div className='app'>
       <Nav />
@@ -24,6 +24,6 @@ function App() {
       <Row title='Documentaries' fetchUrl={requests.fetchDocumentaries} />
     </div>
   );
-}
+};
 
 export default App;
